@@ -12,7 +12,7 @@ bool MatrixNumberIs(int arr[n][n], int target) {
 
     for (int j = 0; j < n; ++j) {
 
-    if (array[i][j] == target) {
+    if (arr[i][j] == target) {
 
     return true;
     }
@@ -23,7 +23,7 @@ bool MatrixNumberIs(int arr[n][n], int target) {
 
     for (int i = 0; i < n; ++i) {
 
-    if (array[i][j] == target) {
+    if (arr[i][j] == target) {
 
     return true;
     }
@@ -36,7 +36,7 @@ bool MatrixNumberIs(int arr[n][n], int target) {
 
 int main() {
     setlocale(LC_ALL, "RUS");
-    int array[n][n] = {
+    int arr[n][n] = {
            {1, 2, 3},
            {4, 5, 6},
            {7, 8, 9}
@@ -46,7 +46,7 @@ int main() {
     cout << "Введите искомое число";
     cin >> target;
 
-    if (MatrixNumberIs, target)) {
+    if (MatrixNumberIs, target) {
         cout << " Число" << target << " найдено в матрице. " << endl;
     }
     else {
