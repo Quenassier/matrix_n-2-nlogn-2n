@@ -9,7 +9,7 @@ bool number(int array[n][n], int target) {
 	if (array[i][j] == target) {
     
 
-				return true;
+return true;
 }
 }
 }
