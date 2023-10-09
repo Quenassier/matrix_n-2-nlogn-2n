@@ -18,18 +18,6 @@ bool MatrixNumberIs(int arr[n][n], int target) {
     }
     }
     }
-
-    for (int j = 0; j < n; ++j) {
-
-    for (int i = 0; i < n; ++i) {
-
-    if (arr[i][j] == target) {
-
-    return true;
-    }
-    }
-    }
-
     
     return false;
 }
