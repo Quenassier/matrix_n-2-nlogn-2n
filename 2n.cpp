@@ -34,7 +34,7 @@ int main() {
     cout << "Введите искомое число";
     cin >> target;
 
-    if (MatrixNumberIs, target) {
+    if (MatrixNumberIs(arr, target)){
         cout << " Число" << target << " найдено в матрице. " << endl;
     }
     else {
